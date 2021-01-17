@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Retrofit_News_App</string>
+    <string name="news_author">Author</string>
+    <string name="news_title">Title</string>
+    <string name="news_description">Description</string>
+    <string name="news_original_url">Original URL</string>
+    <string name="news_publish_time">Publish Time</string>
+    <string name="news_main_content">Content</string>
+    <string name="news_retry_button">Retry</string>
+    <string name="news_no_result_text">Results could not be loaded</string>
+    <string name="news_no_result_query_text">No results found in this query</string>
+    <string name="news_menu_item_search_text">Search</string>
 </resources>

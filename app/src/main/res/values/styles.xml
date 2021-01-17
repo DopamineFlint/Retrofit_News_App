@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="news_author_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_author</item>
+    </style>
+
+    <style name="news_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_title</item>
+        <item name="android:textSize">@dimen/news_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="news_description_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_description</item>
+        <item name="android:layout_marginTop">@dimen/news_ten_margin</item>
+    </style>
+
+    <style name="news_original_url_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_original_url</item>
+        <item name="android:layout_marginTop">@dimen/news_ten_margin</item>
+    </style>
+
+    <style name="news_publish_time_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/news_publish_time_margin</item>
+        <item name="android:layout_marginTop">@dimen/news_publish_time_margin</item>
+        <item name="android:text">@string/news_publish_time</item>
+        <item name="android:textSize">@dimen/news_publish_time_text_size</item>
+    </style>
+
+    <style name="news_main_content_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_main_content</item>
+        <item name="android:layout_marginTop">@dimen/news_ten_margin</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style name="news_post_image_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/news_ten_margin</item>
+    </style>
+
+    <style name="news_recycler_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="news_progress_bar_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="news_no_result_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:text">@string/news_no_result_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="news_retry_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/news_retry_button</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="news_no_result_query_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/news_no_result_query_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="news_progress_bar_style_footer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="news_text_view_error_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/news_no_result_text</item>
+    </style>
+</resources>

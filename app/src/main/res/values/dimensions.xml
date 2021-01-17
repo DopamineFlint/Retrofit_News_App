@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="news_ten_margin">10dp</dimen>
+
+    <dimen name="news_title_text_size">20sp</dimen>
+    <dimen name="news_publish_time_text_size">8sp</dimen>
+    <dimen name="news_publish_time_margin">8sp</dimen>
+
+    <dimen name="news_progress_bar_padding">8dp</dimen>
+
+</resources>

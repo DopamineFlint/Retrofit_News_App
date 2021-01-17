@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_light"
+        tools:context=".ui.main_page.MainPageFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/news_recycler_view"
+            style="@style/news_recycler_view_style"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/news_post_item" />
+
+        <ProgressBar
+            android:id="@+id/news_progress_bar"
+            style="@style/news_progress_bar_style"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/news_no_result_text"
+            style="@style/news_no_result_text_style"
+            android:layout_above="@id/news_retry_button"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/news_retry_button"
+            style="@style/news_retry_button_style"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/news_no_result_query_text"
+            style="@style/news_no_result_query_text_style"
+            tools:visibility="visible" />
+
+    </RelativeLayout>
+</layout>
