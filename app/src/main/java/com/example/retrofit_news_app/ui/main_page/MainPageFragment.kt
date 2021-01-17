@@ -7,8 +7,6 @@ import android.view.MenuInflater
 import android.view.View
 import android.widget.SearchView
 import androidx.core.view.isVisible
-import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import com.example.retrofit_news_app.R
 import com.example.retrofit_news_app.data.ArticlesModel
@@ -59,7 +57,6 @@ class MainPageFragment : Fragment(R.layout.fragment_main_page),
                 newsRetryButton.isVisible = loadState.source.refresh is LoadState.Error
                 newsNoResultText.isVisible = loadState.source.refresh is LoadState.Error //???
 
-                //empty view
                 if (loadState.source.refresh is LoadState.NotLoading &&
                     loadState.append.endOfPaginationReached &&
                     adapter.itemCount < 1
